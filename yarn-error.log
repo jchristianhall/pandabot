@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/Christian/.npm-packages/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/Christian/bin:/Users/Christian/.npm-packages/bin:.git/safe/../../bin:/usr/local/opt/ruby/bin:/usr/local/bin:/Users/Christian/.bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/Christian/Developer/lab/pandabot/package.json: Unexpected token } in JSON at position 611
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "name": "pandabot",
+    "version": "0.0.0",
+    "private": true,
+    "author": "jchristianhall@me.com",
+    "description": "A helpful panda",
+    "dependencies": {
+      "hubot": ">= 2.6.0 < 3.0.0",
+      "hubot-diagnostics": "0.0.2",
+      "hubot-google-images": "^0.2.7",
+      "hubot-google-translate": "^0.2.1",
+      "hubot-help": "^0.2.2",
+      "hubot-heroku-keepalive": "^1.0.3",
+      "hubot-maps": "0.0.3",
+      "hubot-pugme": "^0.1.1",
+      "hubot-redis-brain": "0.0.4",
+      "hubot-rules": "^0.1.2",
+      "hubot-scripts": ">= 2.5.0 < 3.0.0",
+      "hubot-shipit": "^0.2.1",
+      "hubot-slack": "^4.4.0",
+      "pg": "^4.5.5",
+    },
+    "engines": {
+      "node": ">= 0.8.x",
+      "npm": ">= 1.1.x"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
